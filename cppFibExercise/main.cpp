@@ -1,6 +1,10 @@
 #include <iostream>
 
+#include "FibonacciGenerator.h"
+#include "RecursiveFibonacciGenerator.h"
+
 unsigned int getFibonacci(unsigned int n);
+FibonacciGenerator* getGenerator();
 
 int main(int argc, const char * argv[])
 {
@@ -10,7 +14,8 @@ int main(int argc, const char * argv[])
         index = atoi(argv[1]);
     }
 
-    std::cout << "The " << index << "th Fibonacci number is " << getFibonacci(index) << "\n";
+    FibonacciGenerator *generator = getGenerator();
+    std::cout << "The " << index << "th Fibonacci number is " << generator->getFibonacci(index) << "\n";
 
     return 0;
 }
@@ -22,4 +27,9 @@ unsigned int getFibonacci(unsigned int index)
     }
 
     return getFibonacci(index - 1) + getFibonacci(index - 2);
+}
+
+FibonacciGenerator* getGenerator()
+{
+    return new RecursiveFibonacciGenerator();
 }
