@@ -1,10 +1,16 @@
 #include <iostream>
 
 #include "FibonacciGenerator.h"
+#include "IterativeFibonacciGenerator.h"
 #include "RecursiveFibonacciGenerator.h"
 
+enum GenTypes {
+    ITERATIVE,
+    RECURSIVE
+};
+
 unsigned int getFibonacci(unsigned int n);
-FibonacciGenerator* getGenerator();
+FibonacciGenerator* getGenerator(GenTypes type);
 
 int main(int argc, const char * argv[])
 {
@@ -14,22 +20,22 @@ int main(int argc, const char * argv[])
         index = atoi(argv[1]);
     }
 
-    FibonacciGenerator *generator = getGenerator();
+    FibonacciGenerator *generator = getGenerator(GenTypes::ITERATIVE);
     std::cout << "The " << index << "th Fibonacci number is " << generator->getFibonacci(index) << "\n";
+
+    delete generator;
 
     return 0;
 }
 
-unsigned int getFibonacci(unsigned int index)
+FibonacciGenerator* getGenerator(GenTypes type)
 {
-    if (index == 0 || index == 1) {
-        return 1;
+    switch (type) {
+        case GenTypes::ITERATIVE:
+            return new IterativeFibonacciGenerator();
+
+        case GenTypes::RECURSIVE:
+            return new RecursiveFibonacciGenerator();
     }
-
-    return getFibonacci(index - 1) + getFibonacci(index - 2);
-}
-
-FibonacciGenerator* getGenerator()
-{
     return new RecursiveFibonacciGenerator();
 }
