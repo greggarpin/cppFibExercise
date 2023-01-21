@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5FA4DA55297C3712009FB8C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA54297C3712009FB8C8 /* main.cpp */; };
 		5FA4DA5F297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA5E297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp */; };
+		5FA4DA69297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA68297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		5FA4DA5D297C40BA009FB8C8 /* RecursiveFibonacciGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecursiveFibonacciGenerator.h; sourceTree = "<group>"; };
 		5FA4DA5E297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursiveFibonacciGenerator.cpp; sourceTree = "<group>"; };
 		5FA4DA61297C42C2009FB8C8 /* FibonacciGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciGenerator.h; sourceTree = "<group>"; };
+		5FA4DA68297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IterativeFibonacciGenerator.cpp; sourceTree = "<group>"; };
+		5FA4DA6B297C44D0009FB8C8 /* IterativeFibonacciGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IterativeFibonacciGenerator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				5FA4DA5D297C40BA009FB8C8 /* RecursiveFibonacciGenerator.h */,
 				5FA4DA5E297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp */,
 				5FA4DA61297C42C2009FB8C8 /* FibonacciGenerator.h */,
+				5FA4DA68297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp */,
+				5FA4DA6B297C44D0009FB8C8 /* IterativeFibonacciGenerator.h */,
 			);
 			path = cppFibExercise;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA4DA69297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp in Sources */,
 				5FA4DA55297C3712009FB8C8 /* main.cpp in Sources */,
 				5FA4DA5F297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp in Sources */,
 			);

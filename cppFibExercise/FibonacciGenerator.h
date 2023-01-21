@@ -4,6 +4,8 @@
 class FibonacciGenerator
 {
 public:
+    virtual ~FibonacciGenerator() {};
+
     virtual unsigned int getFibonacci(unsigned int index) const = 0;
 };
 
