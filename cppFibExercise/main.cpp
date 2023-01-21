@@ -6,6 +6,10 @@ int main(int argc, const char * argv[])
 {
     unsigned int index = 7;
 
+    if (argc > 1) {
+        index = atoi(argv[1]);
+    }
+
     std::cout << "The " << index << "th Fibonacci number is " << getFibonacci(index) << "\n";
 
     return 0;
