@@ -64,14 +64,22 @@
 		5FA4DA53297C3712009FB8C8 /* cppFibExercise */ = {
 			isa = PBXGroup;
 			children = (
+				5FA4DA74297CA0E5009FB8C8 /* FibonacciGenerators */,
 				5FA4DA54297C3712009FB8C8 /* main.cpp */,
+				5FA4DA61297C42C2009FB8C8 /* FibonacciGenerator.h */,
+			);
+			path = cppFibExercise;
+			sourceTree = "<group>";
+		};
+		5FA4DA74297CA0E5009FB8C8 /* FibonacciGenerators */ = {
+			isa = PBXGroup;
+			children = (
 				5FA4DA5D297C40BA009FB8C8 /* RecursiveFibonacciGenerator.h */,
 				5FA4DA5E297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp */,
-				5FA4DA61297C42C2009FB8C8 /* FibonacciGenerator.h */,
 				5FA4DA68297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp */,
 				5FA4DA6B297C44D0009FB8C8 /* IterativeFibonacciGenerator.h */,
 			);
-			path = cppFibExercise;
+			path = FibonacciGenerators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
