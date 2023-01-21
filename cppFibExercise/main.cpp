@@ -15,11 +15,11 @@ int main(int argc, const char * argv[])
     return 0;
 }
 
-unsigned int getFibonacci(unsigned int n)
+unsigned int getFibonacci(unsigned int index)
 {
-    if (n == 0 || n == 1) {
+    if (index == 0 || index == 1) {
         return 1;
     }
 
-    return getFibonacci(n-1) + getFibonacci(n-2);
+    return getFibonacci(index - 1) + getFibonacci(index - 2);
 }
