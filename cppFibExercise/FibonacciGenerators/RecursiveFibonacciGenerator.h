@@ -5,7 +5,7 @@
 
 namespace FibonacciGenerators {
 
-    class RecursiveFibonacciGenerator : public FibonacciGenerator
+    class RecursiveFibonacciGenerator : public controllers::FibonacciGenerator
     {
     public:
         unsigned int getFibonacci(unsigned int index) const;
