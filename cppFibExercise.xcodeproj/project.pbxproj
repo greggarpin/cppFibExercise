@@ -11,6 +11,7 @@
 		5FA4DA5F297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA5E297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp */; };
 		5FA4DA69297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA68297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp */; };
 		5FA4DA79297CA5CF009FB8C8 /* MainController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA78297CA5CF009FB8C8 /* MainController.cpp */; };
+		5FA4DA7D297CA880009FB8C8 /* FibonacciGeneratorFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4DA7C297CA880009FB8C8 /* FibonacciGeneratorFactory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		5FA4DA6B297C44D0009FB8C8 /* IterativeFibonacciGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IterativeFibonacciGenerator.h; sourceTree = "<group>"; };
 		5FA4DA77297CA5BA009FB8C8 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		5FA4DA78297CA5CF009FB8C8 /* MainController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainController.cpp; sourceTree = "<group>"; };
+		5FA4DA7B297CA870009FB8C8 /* FibonacciGeneratorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciGeneratorFactory.h; sourceTree = "<group>"; };
+		5FA4DA7C297CA880009FB8C8 /* FibonacciGeneratorFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciGeneratorFactory.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				5FA4DA61297C42C2009FB8C8 /* FibonacciGenerator.h */,
 				5FA4DA77297CA5BA009FB8C8 /* MainController.h */,
 				5FA4DA78297CA5CF009FB8C8 /* MainController.cpp */,
+				5FA4DA7B297CA870009FB8C8 /* FibonacciGeneratorFactory.h */,
+				5FA4DA7C297CA880009FB8C8 /* FibonacciGeneratorFactory.cpp */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				5FA4DA79297CA5CF009FB8C8 /* MainController.cpp in Sources */,
 				5FA4DA69297C44C6009FB8C8 /* IterativeFibonacciGenerator.cpp in Sources */,
 				5FA4DA55297C3712009FB8C8 /* main.cpp in Sources */,
+				5FA4DA7D297CA880009FB8C8 /* FibonacciGeneratorFactory.cpp in Sources */,
 				5FA4DA5F297C40FA009FB8C8 /* RecursiveFibonacciGenerator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
