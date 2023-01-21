@@ -4,6 +4,8 @@
 #include "IterativeFibonacciGenerator.h"
 #include "RecursiveFibonacciGenerator.h"
 
+using namespace FibonacciGenerators;
+
 enum GenTypes {
     ITERATIVE,
     RECURSIVE

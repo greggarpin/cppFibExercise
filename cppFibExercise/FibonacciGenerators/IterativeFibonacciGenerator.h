@@ -3,10 +3,12 @@
 
 #include "FibonacciGenerator.h"
 
-class IterativeFibonacciGenerator : public FibonacciGenerator
-{
-public:
-    unsigned int getFibonacci(unsigned int index) const;
-};
+namespace FibonacciGenerators {
 
+    class IterativeFibonacciGenerator : public FibonacciGenerator
+    {
+    public:
+        unsigned int getFibonacci(unsigned int index) const;
+    };
+}
 #endif /* IterativeFibonacciGenerator_h */

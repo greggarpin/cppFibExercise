@@ -1,5 +1,7 @@
 #include "RecursiveFibonacciGenerator.h"
 
+using namespace FibonacciGenerators;
+
 unsigned int RecursiveFibonacciGenerator::getFibonacci(unsigned int index) const
 {
     if (index == 0 || index == 1) {

@@ -1,5 +1,7 @@
 #include "IterativeFibonacciGenerator.h"
 
+using namespace FibonacciGenerators;
+
 unsigned int IterativeFibonacciGenerator::getFibonacci(unsigned int index) const
 {
     if (index == 0 || index == 1) {

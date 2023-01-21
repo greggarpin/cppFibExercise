@@ -3,10 +3,13 @@
 
 #include "FibonacciGenerator.h"
 
-class RecursiveFibonacciGenerator : public FibonacciGenerator
-{
-public:
-    unsigned int getFibonacci(unsigned int index) const;
-};
+namespace FibonacciGenerators {
 
+    class RecursiveFibonacciGenerator : public FibonacciGenerator
+    {
+    public:
+        unsigned int getFibonacci(unsigned int index) const;
+    };
+
+}
 #endif /* RecursiveFibonacciGenerator_h */
